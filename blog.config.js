@@ -1,7 +1,7 @@
 const BLOG = {
   title: 'LONGYEARKARLEN',
   author: 'Karl R Ding',
-  email: 'karl_rding@126.com',
+  email: 'karlding1997@gmail.com',
   link: 'https://nobelium.vercel.app',
   description: 'Interesting souls are the most important.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
