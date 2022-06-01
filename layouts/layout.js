@@ -12,6 +12,8 @@ const mapPageUrl = id => {
   return 'https://www.notion.so/' + id.replace(/-/g, '')
 }
 
+const myAva = "4c151f9590eb126daf5cbb18c7d9dd39";
+
 const Layout = ({
   children,
   blockMap,
@@ -42,7 +44,7 @@ const Layout = ({
                   alt={BLOG.author}
                   width={24}
                   height={24}
-                  src={`https://gravatar.com/avatar/${emailHash}`}
+                  src={`https://gravatar.com/avatar/${myAva}`}
                   className="rounded-full"
                 />
                 <p className="ml-2 md:block">{BLOG.author}</p>
